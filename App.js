@@ -12,10 +12,10 @@ import {SafeAreaView, Text, StatusBar} from 'react-native';
 import MQTT from 'sp-react-native-mqtt';
 
 const cloudMqttOptions = {
-  host: 'm16.cloudmqtt.com', // host, url od brokera
-  port: 13727, // port, pazi neki brokeri imaju tls security itd..
-  user: 'armin', //username od brokera ( namjestena auth na brokeru)
-  pass: 'secret', //pass od brokera ( namjestena auth na brokeru)
+  host: '', // host, url od brokera
+  port: 0000, // port
+  user: '', //username od brokera
+  pass: '', //pass od brokera 
 };
 
 const App: () => React$Node = () => {
